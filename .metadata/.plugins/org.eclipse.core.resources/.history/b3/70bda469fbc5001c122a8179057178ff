@@ -1,0 +1,12 @@
+package com.test.demo
+
+
+// what is a Method
+// named block of code
+// make code modular and reusable
+// method can take parameters
+// can have return type
+
+def printHello{
+	println "Hello..."
+}

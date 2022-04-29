@@ -1,0 +1,14 @@
+package OOPS
+
+class Student {
+	String name;
+	int sub1Marks;
+	int sub2Marks;
+	
+	
+
+	static void main(args) {
+		// TODO Auto-generated method stub
+		
+	}
+}

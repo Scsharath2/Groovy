@@ -1,0 +1,5 @@
+package com.test.demo
+
+File myFile = new File("Data12.txt")
+myFile.write("This is Line 1")
+myFile << "\n This is line2"

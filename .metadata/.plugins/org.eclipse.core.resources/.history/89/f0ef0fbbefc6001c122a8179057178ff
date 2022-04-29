@@ -1,0 +1,8 @@
+package com.test.demo
+
+//Class - Collection of data and Methods that represent a real world object
+
+class OOPClassesObjects1 {
+	private String color
+	private String name
+}

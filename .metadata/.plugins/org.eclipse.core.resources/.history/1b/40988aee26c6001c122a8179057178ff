@@ -1,0 +1,8 @@
+package com.test.demo
+
+//LIST
+//It's a structure to store collection of data items
+def frutis = ["Apples","Oranges","Grapes"]
+// Lists are indexed which starts from 0
+
+println frutis[1]

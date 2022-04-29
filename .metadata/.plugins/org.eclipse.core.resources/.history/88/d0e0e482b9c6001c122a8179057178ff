@@ -1,0 +1,5 @@
+package com.test.demo
+
+/**reading file path**/
+
+String filePath = "C:/Users/SGAJJELA/OneDrive - AMDOCS/Backup Folders/Desktop/DevOps/Groovy/FirstGroovyProject/data1.txt"

@@ -1,0 +1,22 @@
+package com.test.demo
+
+//Class - Collection of data and Methods that represent a real world object
+
+class OOPClassesObjects1 { //this is class of fruits which has two attributes and some functions
+	private String fruitcolor
+	private String fruitname
+	// So we can create multiple furits from this class
+	
+	def SetFruitName(String name) {
+		fruitname = name
+	}
+	def SetFruitColor(String Color) {
+		fruitcolor = color
+	}
+	def getFruitName() {
+		println "Name of the fruit is $fruitname"
+	}
+	def getFruitColor() {
+		println "Color of the fruit is $fruitcolor"
+	}
+}

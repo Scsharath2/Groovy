@@ -1,0 +1,29 @@
+package com.test.demo
+
+class OOPSFrutis {
+	private String furitName
+	private String fruitColor
+	
+	def setFruitName(String Name) {
+		fruitName = Name
+	}
+	def setFruitColor(String Color) {
+		fruitColor = Color
+	}
+	def getFruitName(){
+		println "FruitName is $Name"
+	}
+	def getFruitColor(){
+		println "FruitColor is $Color"
+	}
+
+	static void main(args) {
+		OOPSFrutis Fruit = new OOPSFrutis()
+		Fruit.fruitName("Apple")
+		Fruit.fruitColor("Red")
+		Fruit.getFruitName()
+		Fruit.getFruitColor()
+
+		
+	}
+}

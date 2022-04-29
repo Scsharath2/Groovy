@@ -1,0 +1,15 @@
+package com.test.demo
+
+//Ranges are another type of collection apart from maps and list
+// Creates a list of sequential values
+// denoted by first and last value of the sequences
+// There are two types of ranges, inclusive & exclusive
+//1..10 - inclusive
+//1..<10 - exclusive
+
+def range = 1..10
+println range //prints 1..10, doesn't not iterate all the elements
+println range.size() // prints size, here it is 10
+println range.getFrom() // prints starting range
+println range.getTo() //prints ending range
+

@@ -1,0 +1,13 @@
+package OOPS
+
+class Animal {
+//OOP Inheritance
+//process where one class acquires properties (methods and fields or attributes) from another class
+// The class from where inheritance is done is called parent class and the class which inherits is called child class
+	
+	
+	static void main(args) {
+		// TODO Auto-generated method stub
+		
+	}
+}

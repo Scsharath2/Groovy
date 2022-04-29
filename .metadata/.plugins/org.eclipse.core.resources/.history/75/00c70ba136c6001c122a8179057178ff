@@ -1,0 +1,11 @@
+package com.test.demo
+
+//Ranges are another type of collection apart from maps and list
+// Creates a list of sequential values
+// denoted by first and last value of the sequences
+// There are two types of ranges, inclusive & exclusive
+//1..10 - inclusive
+//1..<10 - exclusive
+
+
+

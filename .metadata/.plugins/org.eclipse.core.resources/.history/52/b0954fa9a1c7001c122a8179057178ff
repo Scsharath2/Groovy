@@ -1,0 +1,4 @@
+package abstractDemo
+
+abstract class Car {
+}

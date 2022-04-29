@@ -1,0 +1,11 @@
+package OOPS
+
+class Animal {
+//OOP Inheritance
+//process where one class acquires properties (methods aand fields or attributes) from another class
+	
+	static void main(args) {
+		// TODO Auto-generated method stub
+		
+	}
+}

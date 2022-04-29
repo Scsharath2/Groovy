@@ -1,0 +1,6 @@
+package com.test.demo
+
+class Vairables {
+	def name = "Dwight"
+	println 'Name is ${name}'
+}

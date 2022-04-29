@@ -1,0 +1,32 @@
+package com.test.demo
+
+//Class - Collection of data and Methods that represent a real world object
+
+class OOPClassesObjects1 { //this is class of fruits which has two attributes and some functions
+	private String fruitcolor
+	private String fruitname
+	// So we can create multiple fruits from this class
+	// Class is a kind of blue print of the object. So using this blue print,
+	// we can create multiple objects
+	
+	def SetFruitName(String name) {
+		fruitname = name
+	}
+	def SetFruitColor(String Color) {
+		fruitcolor = color
+	}
+	def getFruitName() {
+		println "Name of the fruit is $fruitname"
+	}
+	def getFruitColor() {
+		println "Color of the fruit is $fruitcolor"
+	}
+}
+//So here I'm creating the objects for the class, following is the syntax.
+//we can create objects from the other classes as well
+static void main(args) {
+	OOPClassesObjects1 apple = new OOPClassesObjects1() //this is how to create a instance of class
+	// or create a object for the class. Now that we got the instance, we will use the data and methods of the class
+	
+	
+}

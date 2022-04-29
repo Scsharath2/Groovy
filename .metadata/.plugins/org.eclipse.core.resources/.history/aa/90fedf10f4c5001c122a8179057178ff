@@ -1,0 +1,25 @@
+package com.test.demo
+
+//Strings, different ways to mention string
+// Single Quote '.....'
+// Double Quote "....."
+// triple single Quote '''.....'''
+//triple double quoted """...."""
+// slashy /.../
+// dollar slashy $/..binding./$
+
+def name = "dwight"
+println name
+println "My name is " + name
+println "My name is ".concat(name)
+println "My name is ${name}"
+println "My name is $name"
+println 'My name is $name' //this doesn't display the name.This feature is called interpolation
+// Interpolation cannot be done in single quoted strings
+
+//To print the multi-lines , use triple single or double quotes.binding
+def s1 = ''' ACCDFDFDFD
+dfdfdfdf'''
+println s1
+println name.length()
+println name[-2]

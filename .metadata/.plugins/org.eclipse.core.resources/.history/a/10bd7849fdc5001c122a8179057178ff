@@ -1,0 +1,12 @@
+package com.test.demo
+
+class Methods92 {
+
+	static void main(args) {
+		// TODO Auto-generated method stub
+		
+	}
+	def myMethod() {
+		println ("I'm inside the myMethod")
+	}
+}

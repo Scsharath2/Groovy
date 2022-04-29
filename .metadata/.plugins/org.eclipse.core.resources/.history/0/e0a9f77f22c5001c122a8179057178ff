@@ -1,0 +1,9 @@
+package com.test.demo
+
+def  num = 11
+
+if (num==10)
+	println "num is 10"
+else
+	println "num is NOT 10"
+	

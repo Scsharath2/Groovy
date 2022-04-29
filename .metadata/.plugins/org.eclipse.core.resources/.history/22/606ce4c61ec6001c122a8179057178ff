@@ -1,0 +1,9 @@
+package com.test.demo
+
+class Closures {
+}
+//Closures is a block of code that can take parameter
+// refer variables
+// Return Values
+// Can be passed as parameter in a method
+ 

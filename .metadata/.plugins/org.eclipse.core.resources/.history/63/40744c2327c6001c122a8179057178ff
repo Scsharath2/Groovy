@@ -1,0 +1,12 @@
+package com.test.demo
+
+//LIST
+//It's a structure to store collection of data items
+def fruits = ["Apples","Oranges","Grapes"]
+// Lists are indexed which starts from 0
+
+println fruits[1] //returns Oranges
+println fruits.get(2)
+
+def myList = [1,2,3,['A','B',"Groovy"],4]
+ 

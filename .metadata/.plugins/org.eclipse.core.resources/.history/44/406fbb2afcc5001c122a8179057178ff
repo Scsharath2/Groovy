@@ -1,0 +1,27 @@
+package com.test.demo
+
+
+// what is a Method
+// named block of code
+// make code modular and reusable
+// method can take parameters
+// can have return type
+
+def printHello(){
+	println "Hello..."
+}
+
+printHello() //Call method once it's declared
+
+def sum(int a, int b) {
+	println "Sum is "+(a+b)
+}
+
+sum(5,6) // if there are no arguments, there will be an expcetion
+
+
+def sum1(int a1=10, int b1=20) {
+	println "Sum is "+(a1+b1)
+}
+
+sum1()

@@ -1,0 +1,10 @@
+package com.test.demo
+
+class Methods9 {
+}
+
+// what is a Method
+// named block of code
+// make code modular and reusable
+// method can take parameters
+// can ahve return type

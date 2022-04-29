@@ -1,0 +1,11 @@
+package com.test.demo
+
+
+//Closures is a block of code that can take parameter
+// refer variables
+// Return Values
+// Can be passed as parameter in a method
+ 
+def myClosure1 = {
+	println "Hello World"
+}

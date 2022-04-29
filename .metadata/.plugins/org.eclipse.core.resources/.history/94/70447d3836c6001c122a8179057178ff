@@ -1,0 +1,6 @@
+package com.test.demo
+
+//Ranges are another type of collection apart from maps and list
+// Creates a list of sequential values
+// denoted by first and last value of the sequences
+

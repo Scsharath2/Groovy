@@ -1,0 +1,9 @@
+package com.test.demo
+
+def name = "Dwight"
+//println 'Name is '+name
+println "Name is ${name}"
+
+def name2 = "Pam"
+name2 = "Jim"
+println name2

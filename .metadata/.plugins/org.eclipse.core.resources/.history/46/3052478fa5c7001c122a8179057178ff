@@ -1,0 +1,7 @@
+package com.test.demo
+
+//Regex -patterns used to find substring in a text
+// in groovy, we use ~"Expression"
+
+def match =  "Groovy" =~ "Groovy"
+println match[0]

@@ -1,0 +1,20 @@
+package com.test.demo
+
+//Curly braces are not required if there is only one statement but it's best practice to use it
+
+def  num = 11
+
+if (num==10)
+	println "num is 10"
+else
+	println "num is NOT 10"
+	
+//Check if the number is +ve or -ve	
+def  num1 = 11
+	
+if (num>0)
+	println "num is +ve"
+else if(num==0)
+	println "num is 0"
+else
+	println "num is -ve"

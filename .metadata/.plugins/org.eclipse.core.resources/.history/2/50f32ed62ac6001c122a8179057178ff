@@ -1,0 +1,15 @@
+package com.test.demo
+
+
+// Maps
+// It's a key:value pair
+// [key.value]
+
+def employee = [name:'Michal', 'Age':40]
+println employee
+println employee.name //prints name value
+println employee['name'] //again prints name value
+printsln employee.get('Age') //prints age
+printsln employee.getAt('Age')
+
+

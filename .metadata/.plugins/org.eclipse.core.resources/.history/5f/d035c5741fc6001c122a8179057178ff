@@ -1,0 +1,30 @@
+package com.test.demo
+
+
+//Closures is a block of code that can take parameter
+// refer variables
+// Return Values
+// Can be passed as parameter in a method
+ 
+def myClosure1 = {
+	println "Hello World"
+}
+myClosure1.call()
+
+//Example#2
+
+def myClosure2 = {
+	name -> println "Hello ${name}"
+}
+
+myClosure2.call("Pam")
+
+
+//Example#3 //In functions we cannot refer the variable in a method like below
+def str = "Hello"
+
+def myClosure3 = {
+	name -> println "$str $name"
+}
+myClosure3.call("Pam")
+

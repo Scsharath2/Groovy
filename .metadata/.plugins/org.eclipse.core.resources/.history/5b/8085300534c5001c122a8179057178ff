@@ -1,0 +1,14 @@
+package com.test.demo
+
+
+//Just like java, in Groovy exception handling is done.
+
+
+//i =1/0 // There is ArthmeticException when you run this code.To handle this type of Exceptions, you can add the some code to handle it
+	// This is where try-catch in to picture 
+
+//try-catch-finally
+//try-finally
+
+
+//try-catch

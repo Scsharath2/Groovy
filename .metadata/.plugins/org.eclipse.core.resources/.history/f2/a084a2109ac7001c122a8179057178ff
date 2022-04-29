@@ -1,0 +1,6 @@
+package OOPS
+//Inheritence , extends used if you want to use the attributes from another class
+
+class Dog extends Animal {
+	
+}

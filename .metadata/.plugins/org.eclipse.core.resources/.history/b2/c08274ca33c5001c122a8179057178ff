@@ -1,0 +1,7 @@
+package com.test.demo
+
+
+//Just like java, in Groovy exception handling is done.
+//try-catch
+//try-catch-finally
+//try-finally

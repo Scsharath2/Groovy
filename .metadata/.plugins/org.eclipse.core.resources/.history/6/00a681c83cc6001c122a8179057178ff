@@ -1,0 +1,8 @@
+package com.test.demo
+
+
+//printf  - in printf we use locators. we have %s for string , %d for integers
+// %.2f which will take upto two decimal places , \n for next line.
+
+//Example#1
+printf "%s | %d | %.2f \n",["Pam",10,36.34]\

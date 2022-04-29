@@ -1,0 +1,18 @@
+package com.test.demo
+
+// It's always recommended to use single forward slash in filepath, it will work in linux and Mac
+/**reading file path**/
+String filePath = "C:/Users/SGAJJELA/OneDrive - AMDOCS/Backup Folders/Desktop/DevOps/Groovy/FirstGroovyProject/data1.txt"
+File myFile = new File(filePath) //for Class File creating a object myFile
+
+//reading entire content as String
+println myFile.text
+
+//Collect lines into a list
+def list = myFile.collect{ it }
+println "list : $list"
+
+
+//store file content in an arrary
+def array = myFile as String[]
+println "array : $array"

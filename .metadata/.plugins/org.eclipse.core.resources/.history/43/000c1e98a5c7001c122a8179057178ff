@@ -1,0 +1,12 @@
+package com.test.demo
+
+//Regex -patterns used to find substring in a text
+// in groovy, we use ~"Expression"
+
+def match =  "Groovy" =~ "Groovy"
+
+if(match) {
+	println match[0]
+}else {
+	println "No Match found"
+}

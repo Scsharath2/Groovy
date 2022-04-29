@@ -1,0 +1,15 @@
+package com.test.demo
+
+//Variables are used to store the information, This can be different types
+//e.g. string, boolean,etc..the reason we've different data types because each data type has 
+// specific range and it helps to save the memory
+//byte
+byte a = 10
+println a
+println Byte.MIN_VALUE
+println Byte.MAX_VALUE
+//short
+short s = 200
+println s
+println short.MIN_VALUE
+println short.MAX_VALUE

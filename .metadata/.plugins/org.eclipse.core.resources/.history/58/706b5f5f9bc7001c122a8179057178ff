@@ -1,0 +1,6 @@
+package OOPS
+
+//In OOPs, generally it's better to put all the functions in one class and use it as reference
+class cars {
+	
+}

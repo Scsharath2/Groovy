@@ -1,0 +1,60 @@
+package com.test.demo
+
+
+//Closures is a block of code that can take parameter
+// refer variables
+// Return Values
+// Can be passed as parameter in a method
+ 
+def myClosure1 = {
+	println "Hello World"
+}
+myClosure1.call()
+
+//Example#2
+
+def myClosure2 = {
+	name -> println "Hello ${name}"
+}
+
+myClosure2.call("Pam")
+
+
+//Example#3 //In functions we cannot refer the variable in a method like below
+def str = "Hello"
+
+def myClosure3 = {
+	name -> println "$str $name"
+}
+myClosure3.call("Pam")
+
+//Example#4 we can also pass closures as parameters to a method
+def myMethod(clos) {
+	clos.call("Groovy")
+}
+
+myMethod(myClosure2) //here method is calling myClosure2 closure
+
+//Example#5 Passing parameters
+
+def myClosure4 = {
+	a,b,c ->
+	return a+b+c
+}
+
+def res = myClosure4(1,2,3)
+println res
+
+//Example#6 Lists
+
+def myList1 = ["Apples","Oranges","Grapes"]
+println myList1.each { it }
+
+//Example#7 Maps
+
+def myList2 = ['Subject':'Groovy','Topic':'Closures']
+println myList2.each { it }
+
+
+def myList3 = [1,2,3,4,5]
+println myList2.find{item -> item == 4)

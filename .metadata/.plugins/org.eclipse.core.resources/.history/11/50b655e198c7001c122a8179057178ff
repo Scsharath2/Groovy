@@ -1,0 +1,9 @@
+package OOPS
+
+class Animal {
+
+	static void main(args) {
+		// TODO Auto-generated method stub
+		
+	}
+}

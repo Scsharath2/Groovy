@@ -1,0 +1,10 @@
+package OOPS
+
+class Toyoto extends cars {
+	
+	int topspeed ;
+	
+	def topspeed() {
+		println "Top Speed is $topspeed"
+	}	
+}

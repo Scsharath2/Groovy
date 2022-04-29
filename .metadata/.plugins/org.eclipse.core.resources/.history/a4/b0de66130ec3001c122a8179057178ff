@@ -1,0 +1,6 @@
+package com.test.demo
+
+//Variables are used to store the information, This can be different types
+//e.g. string, boolean,etc
+//byte
+def a = "Dwight"

@@ -1,0 +1,16 @@
+package OOPS
+
+class Student {
+	String name;
+	int sub1Marks;
+	int sub2Marks;
+	
+	def printTotal() {
+		println "$name has total marks ="+(sub1Marks+sub2Marks)
+	}
+
+	static void main(args) {
+		// TODO Auto-generated method stub
+		
+	}
+}

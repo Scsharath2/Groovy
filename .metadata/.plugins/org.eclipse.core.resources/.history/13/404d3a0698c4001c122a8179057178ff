@@ -1,0 +1,53 @@
+package com.test.demo
+
+//Variables are used to store the information, This can be different types
+//e.g. string, boolean,etc..the reason we've different data types because each data type has 
+// specific range and it helps to save the memory
+//byte
+println "========Byte========"
+byte a = 10
+println a
+println Byte.MIN_VALUE
+println Byte.MAX_VALUE
+println "========Short========"
+//short
+short s = 200
+println s
+println Short.MIN_VALUE
+println Short.MAX_VALUE
+println "========Integer========"
+//integer
+int i = 200
+println i
+println Integer.MIN_VALUE
+println Integer.MAX_VALUE
+println "========Long========"
+//long
+long l = 200
+println l
+println Long.MIN_VALUE
+println Long.MAX_VALUE
+println "========Float========"
+//float
+float f = 200.3434F
+println f
+println Float.MIN_VALUE
+println Float.MAX_VALUE
+println "========Double========"
+//Double
+double d = 1000.34343
+println d
+println Double.MIN_VALUE
+println Double.MAX_VALUE
+println "========Char========"
+//char used to store single character
+char c = 'A'
+println c
+println "========Boolean========"
+//Boolean
+boolean flag = true
+println flag
+println "========String========"
+//String is used to store the string characters
+String str = "Groovy"
+println str
